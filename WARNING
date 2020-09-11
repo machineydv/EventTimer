@@ -1,0 +1,2 @@
+Providing wrong date time causes error. GIGO. Cross Check the time generated. Also, this generates for Nepal only. 
+To change settings go to lib/Globals.py
