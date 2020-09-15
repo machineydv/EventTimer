@@ -17,6 +17,7 @@ def counter_time_from_seconds(second):
             ) + '\r',
             end=""
         )
+        #print("{} Nepali Time: {}".format(ColorObj.good, colored(nepal, color='cyan')) + '\r', end="")
         sleep(1)
         second -= 1
     return "{} {}".format(ColorObj.good,time_from_seconds(second))
