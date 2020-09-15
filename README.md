@@ -11,3 +11,6 @@ Edit lib/Globals.py for event management
 ## Todo
 1. Send notification `libnotifysend` and `slack notification` when timer is reached.
 2. Multiple events being displayed instead of single.
+
+## Warning
+Check WARNING file
