@@ -24,7 +24,7 @@ date, seconds = date_from_seconds(event_seconds-current_seconds)
 counter_seconds = seconds_from_date(date) + int(seconds)
 
 try:
-    print_from_seconds(counter_seconds)
+    print_from_seconds(counter_seconds, event_1)
 except KeyboardInterrupt:
     print(f"{ColorObj.bad} Exiting")
     exit()
