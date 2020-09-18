@@ -7,10 +7,10 @@ Run countdown for your event from your computer based on event details. Lets say
 2. Multiple events now supported
 
 ## Configuration
-Edit lib/Globals.py for event management
+Edit lib/Globals.py for event management. See wiki for more data.
 
 ## Usage
-`python3 EventTimer.py`
+`python3 EventTimer.py`. See wiki for more data
 
 ## Todo
 1. Send notification `libnotifysend` and `slack notification` when timer is reached.
