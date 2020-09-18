@@ -22,6 +22,14 @@ event_3 = {
     "event_timeformat":"EST"
 }
 
+event_4 = {
+    "event_name":"Lupin XSS Writeup",
+    "event_date":"2020-09-18",
+    "event_time":"17:00:00", #+- 2
+    "event_timeformat":"GMT"
+}
+
+
 pacific_to_ktm = seconds_from_time('0:45:00') #For Nepal
 gmt_to_ktm = seconds_from_time('5:45:00') #For Nepal
 est_to_ktm = seconds_from_time('04:00:00')
