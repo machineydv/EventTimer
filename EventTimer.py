@@ -23,19 +23,23 @@ def EventSeconds(edict: dict):
         event_seconds = int(seconds_from_date(edict["event_date"])) + int(seconds_from_time(edict["event_time"])) + int(est_to_ktm)
     return event_seconds
 
-def CounterSeconds(edict, current_seconds):
+def CounterSeconds(edict):
+    global current_seconds
     event_seconds = EventSeconds(edict)
     date, seconds = date_from_seconds(event_seconds-current_seconds)
     counter_seconds = seconds_from_date(date) + int(seconds)
     return counter_seconds
 
-counter_1 = CounterSeconds(event_1, current_seconds)
+counter_1 = CounterSeconds(event_1)
+counter_2 = CounterSeconds(event_2)
 
 try:
     while True:
         print("\x1b[%d;%dH" % (1, 1), end="")
         print_from_seconds(counter_1, event_1)
+        print_from_seconds(counter_2, event_2)
         counter_1 -= 1
+        counter_2 -= 1
         sleep(1)
 except KeyboardInterrupt:
     print(f"{ColorObj.bad} Exiting")
