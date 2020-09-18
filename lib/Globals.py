@@ -15,13 +15,12 @@ event_2 = {
     "event_timeformat":"UTC"
 }
 
-event_2 = {
-    "event_name":"h1-2010 Virtual Hacking",
+event_3 = {
+    "event_name":"h1-2010 Virtual Hacking (https://www.verizonmedia.com/insights/h1-2010--overview)",
     "event_date":"2020-09-22",
     "event_time":"11:00:00",
     "event_timeformat":"EST"
 }
-
 
 pacific_to_ktm = seconds_from_time('0:45:00') #For Nepal
 gmt_to_ktm = seconds_from_time('5:45:00') #For Nepal

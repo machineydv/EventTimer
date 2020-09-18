@@ -32,14 +32,17 @@ def CounterSeconds(edict):
 
 counter_1 = CounterSeconds(event_1)
 counter_2 = CounterSeconds(event_2)
+counter_3 = CounterSeconds(event_3)
 
 try:
     while True:
         print("\x1b[%d;%dH" % (1, 1), end="")
         print_from_seconds(counter_1, event_1)
         print_from_seconds(counter_2, event_2)
+        print_from_seconds(counter_3, event_3)
         counter_1 -= 1
         counter_2 -= 1
+        counter_3 -= 1
         sleep(1)
 except KeyboardInterrupt:
     print(f"{ColorObj.bad} Exiting")
