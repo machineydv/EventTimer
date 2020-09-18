@@ -5,7 +5,7 @@ Run countdown for your event from your computer based on event details. Lets say
 ## Features
 1. Nepali && Indian && UTC Countdown
 2. Multiple number of events now supported
-3. Multiple time formats.
+3. Multiple time formats `GMT/UTC`, `EST|EDT`, `PCT` support.
 
 ## Configuration
 Edit lib/Globals.py for event management. See wiki for more data.

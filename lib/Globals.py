@@ -7,11 +7,19 @@ event_1 = {
     "event_time":"19:00:00",
     "event_timeformat":"EST"
 }
+
 event_2 = {
     "event_name":"HTB Crossfit Release",
     "event_date":"2020-09-19",
     "event_time":"19:00:00",
     "event_timeformat":"UTC"
+}
+
+event_2 = {
+    "event_name":"h1-2010 Virtual Hacking",
+    "event_date":"2020-09-22",
+    "event_time":"11:00:00",
+    "event_timeformat":"EST"
 }
 
 
