@@ -1,5 +1,6 @@
 from os import system
 from termcolor import colored
+from time import sleep
 from datetime import date, datetime
 
 from lib.TimeFunctions import *
@@ -20,13 +21,16 @@ def EventSeconds(edict: dict):
         event_seconds = int(seconds_from_date(edict["event_date"])) + int(seconds_from_time(edict["event_time"])) + int(est_to_ktm)
     return event_seconds
 
-event_seconds = EventSeconds(event_1)
-date, seconds = date_from_seconds(event_seconds-current_seconds)
+event1_seconds = EventSeconds(event_1)
+date, seconds = date_from_seconds(event1_seconds-current_seconds)
 counter_seconds = seconds_from_date(date) + int(seconds)
 system('clear')
 
 try:
-    print_from_seconds(counter_seconds, event_1)
+    while counter_seconds > 1:
+        print_from_seconds(counter_seconds, event_1)
+        counter_seconds -= 1
+        sleep(1)
 except KeyboardInterrupt:
     print(f"{ColorObj.bad} Exiting")
     exit()
