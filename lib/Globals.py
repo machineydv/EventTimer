@@ -1,11 +1,13 @@
 from lib.ColoredObject import Color
 from lib.TimeFunctions import seconds_from_time
+# Note: For GMT only if event occurs in GMT+2 then subtract 2 hour, i.e if sth start in 17:00:00 GMT +2 then, set 15:00:00 with timeformat GMT
 
 event_1 = {
     "event_name":"BsidesBOS CTF",
     "event_date":"2020-09-26",
     "event_time":"19:00:00",
-    "event_timeformat":"EST"
+    "event_timeformat":"EST",
+    "event_description":"A CTF"
 }
 
 event_2 = {
@@ -25,7 +27,7 @@ event_3 = {
 event_4 = {
     "event_name":"Lupin XSS Writeup",
     "event_date":"2020-09-18",
-    "event_time":"17:00:00", #+- 2
+    "event_time":"15:00:00",
     "event_timeformat":"GMT"
 }
 
