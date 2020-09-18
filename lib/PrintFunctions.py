@@ -1,4 +1,3 @@
-from os import system
 from time import sleep
 from termcolor import colored
 
@@ -6,7 +5,6 @@ from lib.Globals import *
 from lib.TimeFunctions import *
 
 def print_from_seconds(second, edict):
-    system('clear')
     while second > 2:
         nepal = colored(time_from_seconds(second), color='cyan')
         india = colored(time_from_seconds(second-seconds_from_time('00:15:00')), color='yellow')

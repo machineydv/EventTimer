@@ -1,5 +1,6 @@
-from datetime import date, datetime
+from os import system
 from termcolor import colored
+from datetime import date, datetime
 
 from lib.TimeFunctions import *
 from lib.DateFunctions import *
@@ -22,6 +23,7 @@ def EventSeconds(edict: dict):
 event_seconds = EventSeconds(event_1)
 date, seconds = date_from_seconds(event_seconds-current_seconds)
 counter_seconds = seconds_from_date(date) + int(seconds)
+system('clear')
 
 try:
     print_from_seconds(counter_seconds, event_1)
