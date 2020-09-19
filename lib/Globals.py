@@ -31,12 +31,12 @@ event_4 = {
     "event_timeformat":"CEST"
 }
 
-
-pacific_to_ktm = seconds_from_time('00:45:00') #For Nepal
-gmt_to_ktm = seconds_from_time('05:45:00') #For Nepal
+# Anything having 5:45:00 is GMT +5:45 (timezone for Nepal)
+pacific_to_ktm = seconds_from_time('00:45:00')
+gmt_to_ktm = seconds_from_time('05:45:00')
 est_to_ktm = seconds_from_time('04:00:00')
-est_to_ktm += seconds_from_time('05:45:00') #For Nepal
-cest_to_ktm = seconds_from_time('05:45:00') #For Nepal
-cest_to_ktm -= seconds_from_time('02:00:00') 
+est_to_ktm += seconds_from_time('05:45:00')
+cest_to_ktm = seconds_from_time('05:45:00')
+cest_to_ktm -= seconds_from_time('02:00:00')
 
 ColorObj = Color()
