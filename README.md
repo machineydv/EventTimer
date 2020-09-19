@@ -11,7 +11,7 @@ Run countdown for your event from your computer based on event details. Lets say
 Edit lib/Globals.py for event management. See wiki for more data.
 
 ## Usage
-`python3 EventTimer.py`. See wiki for more data
+`python3 EventTimer.py`. If error occurs this is probably due to the fact the datetime has already passed. Update to new events to make it work. See wiki for more data
 
 ## Todo
 1. Send notification `libnotifysend` and `slack notification` when timer is reached.

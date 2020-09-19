@@ -15,12 +15,14 @@ current_seconds = current_time + current_date
 system('clear')
 
 def EventSeconds(edict: dict):
-    if edict["event_timeformat"] == "GMT" or edict["event_timeformat"] == "UTC": #UTC Time
+    if edict["event_timeformat"] == "GMT" or edict["event_timeformat"] == "UTC":
         event_seconds = int(seconds_from_date(edict["event_date"])) + int(seconds_from_time(edict["event_time"])) + int(gmt_to_ktm)
-    elif edict["event_timeformat"] == "PCT": #Pacific Time
+    elif edict["event_timeformat"] == "PCT":
         event_seconds = int(seconds_from_date(edict["event_date"])) + int(seconds_from_time(edict["event_time"])) +int(pacific_to_ktm)
-    elif edict["event_timeformat"] == "EST": #Eastern Time
+    elif edict["event_timeformat"] == "EST":
         event_seconds = int(seconds_from_date(edict["event_date"])) + int(seconds_from_time(edict["event_time"])) + int(est_to_ktm)
+    elif edict["event_timeformat"] == "CEST":
+        event_seconds = int(seconds_from_date(edict["event_date"])) + int(seconds_from_time(edict["event_time"])) + int(cest_to_ktm)
     return event_seconds
 
 def CounterSeconds(edict):
