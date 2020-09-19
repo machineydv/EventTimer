@@ -12,5 +12,5 @@ def print_from_seconds(second, edict):
         print(f"{ColorObj.information} Event {edict['event_name']}:{edict['event_description']}")
     else:
         print(f"{ColorObj.information} Event: {edict['event_name']}")
-    print(f"{ColorObj.good} Nepali Time: {Nepal}, Indian Time: {India}, Universal Time: {Universal}")
+    print(f"{ColorObj.good} Universal Time: {Universal}, Nepali Time: {Nepal}, Indian Time: {India} ")
     return True
