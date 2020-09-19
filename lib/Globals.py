@@ -18,17 +18,19 @@ event_2 = {
 }
 
 event_3 = {
-    "event_name":"h1-2010 Virtual Hacking (https://www.verizonmedia.com/insights/h1-2010--overview)",
+    "event_name":"h1-2010 Virtual Hacking",
     "event_date":"2020-09-22",
     "event_time":"11:00:00",
-    "event_timeformat":"EST"
+    "event_timeformat":"EST",
+    "event_description":"https://www.verizonmedia.com/insights/h1-2010--overview"
 }
 
 event_4 = {
-    "event_name":"CyberSecurity Challenge 2020 (Reply Challenges)",
+    "event_name":"CyberSecurity Challenge 2020",
     "event_date":"2020-10-09",
     "event_time":"19:30:00",
-    "event_timeformat":"CEST"
+    "event_timeformat":"CEST",
+    "event_description":"Reply Challenge"
 }
 
 # Anything having 5:45:00 is GMT +5:45 (timezone for Nepal)
