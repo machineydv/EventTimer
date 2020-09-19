@@ -25,7 +25,7 @@ event_3 = {
 }
 
 event_4 = {
-    "event_name":"CyberSecurity Challenge 2020 (Reply)",
+    "event_name":"CyberSecurity Challenge 2020 (Reply Challenges)",
     "event_date":"2020-10-09",
     "event_time":"19:30:00",
     "event_timeformat":"CEST"
