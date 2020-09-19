@@ -36,6 +36,7 @@ pacific_to_ktm = seconds_from_time('00:45:00') #For Nepal
 gmt_to_ktm = seconds_from_time('05:45:00') #For Nepal
 est_to_ktm = seconds_from_time('04:00:00')
 est_to_ktm += seconds_from_time('05:45:00') #For Nepal
-cest_to_ktm = seconds_from_time('03:45:00') #For Nepal
+cest_to_ktm = seconds_from_time('05:45:00') #For Nepal
+cest_to_ktm -= seconds_from_time('02:00:00') 
 
 ColorObj = Color()
