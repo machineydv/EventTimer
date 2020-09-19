@@ -25,16 +25,17 @@ event_3 = {
 }
 
 event_4 = {
-    "event_name":"Lupin XSS Writeup",
-    "event_date":"2020-09-18",
-    "event_time":"15:00:00",
-    "event_timeformat":"GMT"
+    "event_name":"CyberSecurity Challenge 2020 (Reply)",
+    "event_date":"2020-10-09",
+    "event_time":"19:30:00",
+    "event_timeformat":"CEST"
 }
 
 
-pacific_to_ktm = seconds_from_time('0:45:00') #For Nepal
-gmt_to_ktm = seconds_from_time('5:45:00') #For Nepal
+pacific_to_ktm = seconds_from_time('00:45:00') #For Nepal
+gmt_to_ktm = seconds_from_time('05:45:00') #For Nepal
 est_to_ktm = seconds_from_time('04:00:00')
-est_to_ktm += seconds_from_time('5:45:00') #For Nepal
+est_to_ktm += seconds_from_time('05:45:00') #For Nepal
+cest_to_ktm = seconds_from_time('03:45:00') #For Nepal
 
 ColorObj = Color()

@@ -38,7 +38,6 @@ def twenty_four_to_twelve(time):
             new_time = time + ' ' + shift
             return new_time
 
-
 # while True:
     # time_type = input("Enter time type: GMT(G), PACIFIC(P), KTM(K): ").strip().upper()
     # to_type = input("Enter time to change to: GMT(G), PACIFIC(P), KTM(K): ").strip().upper()
