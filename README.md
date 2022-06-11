@@ -1,5 +1,7 @@
 # Event Timer
 ## Description
+- :warning: Before diving into my tools, read this: [NUKED](https://github.com/machineydv/machineydv/blob/master/NUKED.md)
+
 Run countdown for your event from your computer based on event details. Lets say there is some event and you want all that stuff being displayed in terminal or your are too lazy to visit certain website then Event Timer comes to rescue.
 
 ## Features
