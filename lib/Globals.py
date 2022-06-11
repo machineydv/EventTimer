@@ -7,7 +7,6 @@ event_1 = {
     "event_date":"2020-09-26",
     "event_time":"19:00:00",
     "event_timeformat":"EST",
-    "event_description":"A CTF"
 }
 
 event_2 = {
