@@ -7,6 +7,8 @@
 [![PyPI version](https://badge.fury.io/py/event-timer.svg)](https://badge.fury.io/py/event-timer)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+- :warning: Before diving into my tools, read this: [NUKED](https://github.com/machineydv/machineydv/blob/master/NUKED.md)
+
 ## Description
 A simple and light event countdown manager. Here, event is anything that you need countdown on. You can almost fill anything as event such as movie release dates or appointments.
 
